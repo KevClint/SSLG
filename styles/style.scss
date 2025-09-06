@@ -43,12 +43,15 @@ body {
   overflow-x: hidden;
 }
 
-
-
 main {
   max-width: 1200px;
   margin: 26px auto;
   padding: 0 var(--container-padding) 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 /* Section header */
@@ -65,8 +68,10 @@ main {
 }
 
 .section-header h2 {
-  font-size: 18px;
+  font-size: 1.1rem;
+  font-size: clamp(1.1rem, 1rem + 0.5vw, 1.6rem);
   color: #08102a;
+  font-weight: bold;
 }
 
 .section-header p {
@@ -276,8 +281,6 @@ button:focus {
 .gallery-item {
   min-width: 0;
 }
-
-
 
 /// header
 /* Header */
