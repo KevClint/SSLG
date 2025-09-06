@@ -6,7 +6,7 @@
   --accent-end: #6c36ff;
   --glass: rgba(255, 255, 255, 0.6);
   --shadow: 0 8px 30px rgba(15, 23, 42, 0.08);
-  --radius: 14px;
+  --radius: 5px;
   --max-image-height: 640px;
   /* change this if you want taller/shorter */
   --container-padding: 20px;
@@ -58,7 +58,7 @@ main {
 .section-header {
   background: linear-gradient(180deg, #ffffff, #fbfdff);
   padding: 20px;
-  border-radius: 16px;
+  border-radius: 5px;
   box-shadow: var(--shadow);
   display: flex;
   flex-direction: column;
@@ -291,6 +291,7 @@ header {
   width: 100%;
   transition: all 0.3s;
   background: rgba(255, 255, 255, 0.95); /* solid or semi-transparent bg */
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 header nav {
@@ -457,7 +458,6 @@ button a {
 
 /// footer
 footer {
-  border-radius: 5% 5% 0 0;
   background-color: #ffffff;
   box-shadow: var(--footer-shadow);
   color: black;
